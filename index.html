@@ -127,26 +127,28 @@
             
             <div class="grid md:grid-cols-2 gap-6">
                 <!-- Vuelos -->
-                <div class="bg-white/80 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white card-hover flex flex-col justify-between">
-                    <div class="bg-gradient-to-r from-emerald-500 to-green-400 p-5 text-white flex justify-between items-center">
+                <div class="bg-white/80 backdrop-blur-sm rounded-3xl overflow-hidden shadow-xl border-2 border-[#00D66C] card-hover flex flex-col justify-between">
+                    <div class="bg-gradient-to-r from-[#00D66C] to-[#00b35a] p-5 text-white flex flex-wrap justify-between items-center gap-4">
                         <div class="flex items-center gap-3">
-                            <span class="text-3xl bg-white/20 p-2 rounded-xl backdrop-blur-md">🛫</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Transavia_logo.svg/3840px-Transavia_logo.svg.png" alt="Transavia Logo" class="h-10 w-24 object-contain bg-white rounded-xl p-2 shadow-inner shrink-0">
                             <div>
-                                <p class="text-[10px] uppercase tracking-widest font-bold opacity-80">Aerolínea Recomendada</p>
-                                <h3 class="text-xl font-bold font-serif tracking-wide">Transavia</h3>
+                                <p class="text-[10px] uppercase tracking-widest font-bold text-white/90 leading-tight">Billetes Emitidos</p>
+                                <h3 class="text-xl font-bold font-serif tracking-wide leading-tight">Transavia</h3>
                             </div>
                         </div>
-                        <span class="bg-white text-emerald-700 font-black px-3 py-1.5 rounded-xl text-sm shadow-md">~790 €</span>
+                        <div class="flex items-center gap-2 ml-auto">
+                            <span class="bg-[#008f47] text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest border border-white/30 shadow-sm whitespace-nowrap">✔️ ¡Comprados!</span>
+                            <span class="bg-white text-[#009c4f] font-black px-3 py-1.5 rounded-xl text-sm shadow-md">854 €</span>
+                        </div>
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
-                        <p class="text-slate-800 font-bold text-lg mb-2">Vuelos Directos + 1 Maleta</p>
+                        <p class="text-slate-800 font-bold text-lg mb-2">Vuelos Directos + 1 Maleta + Asientos</p>
                         <div class="flex items-center gap-3 bg-slate-100/50 p-3 rounded-xl border border-slate-200 mb-4">
                             <span class="font-bold text-slate-700">🇪🇸 SVQ</span>
                             <span class="text-slate-400 text-xs font-mono flex-grow text-center">━━━━━━━━━</span>
                             <span class="font-bold text-slate-700">🇳🇱 AMS</span>
                         </div>
                         
-                        <!-- NUEVO: Detalles del Vuelo (Para igualar altura con el coche) -->
                         <div class="space-y-3 flex-grow mb-4">
                             <div class="flex items-start gap-3">
                                 <span class="bg-blue-100 text-blue-600 w-8 h-8 rounded-lg flex items-center justify-center shrink-0 border border-blue-200">⏱️</span>
@@ -167,31 +169,32 @@
                             <div class="flex items-start gap-3">
                                 <span class="bg-red-100 text-red-600 w-8 h-8 rounded-lg flex items-center justify-center shrink-0 border border-red-200">🧳</span>
                                 <div>
-                                    <strong class="text-sm text-slate-800 block leading-tight">1 Maleta Compartida (20kg)</strong>
-                                    <p class="text-xs text-slate-500 mt-0.5 leading-relaxed">Para líquidos y neceseres. Los 790€ ya incluyen el coste de añadirla facturada.</p>
+                                    <strong class="text-sm text-slate-800 block leading-tight">1 Maleta Compartida (25kg)</strong>
+                                    <p class="text-xs text-slate-500 mt-0.5 leading-relaxed">Para líquidos. Los 854€ ya incluyen facturarla y el suplemento de asientos para que las chicas vayan juntas.</p>
                                 </div>
                             </div>
                         </div>
                         
-                        <!-- ALINEACIÓN BOTTOM FORZADA -->
-                        <div class="mt-auto space-y-2">
-                            <a href="https://www.skyscanner.es/transporte/vuelos/svq/ams/260906/260912/?adultsv2=3&cabinclass=economy&childrenv2=17&inboundaltsenabled=false&outboundaltsenabled=false&preferdirects=true&rtn=1&priceSourceId=&priceTrace=202607191830*D*SVQ*AMS*20260906*mtes*HV%7C202607191830*D*AMS*SVQ*20260912*mtes*HV&qp_prevCurrency=EUR&qp_prevPrice=154&qp_prevProvider=ins_month" target="_blank" class="block w-full text-center bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 rounded-xl transition-colors shadow-md">1. Buscar en Skyscanner</a>
-                            <p class="text-xs text-center text-orange-600 font-bold flex items-center justify-center gap-1">⚠️ Compra en web oficial</p>
+                        <div class="mt-auto pt-2">
+                            <a href="https://www.transavia.com" target="_blank" class="block w-full text-center bg-[#00D66C] hover:bg-[#00b35a] text-white font-bold py-3 rounded-xl transition-colors shadow-md">Ver Billetes en Transavia</a>
+                            <p class="text-xs text-center text-[#00b35a] font-bold flex items-center justify-center gap-1 mt-2">✔️ Asientos contiguos confirmados</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Coche -->
                 <div class="bg-white/80 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-white card-hover flex flex-col justify-between">
-                    <div class="bg-gradient-to-r from-green-700 to-green-600 p-5 text-white flex justify-between items-center border-b-4 border-yellow-400">
+                    <div class="bg-gradient-to-r from-green-700 to-green-600 p-5 text-white flex flex-wrap justify-between items-center gap-4 border-b-4 border-yellow-400">
                         <div class="flex items-center gap-3">
-                            <span class="text-3xl bg-white/20 p-2 rounded-xl backdrop-blur-md">🚙</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Europcar-Logo.svg/3840px-Europcar-Logo.svg.png" alt="Europcar Logo" class="h-10 w-24 object-cover rounded-xl border border-white/30 shadow-sm shrink-0">
                             <div>
-                                <p class="text-[10px] uppercase tracking-widest font-bold opacity-80">Rent a Car Oficial</p>
-                                <h3 class="text-xl font-bold font-serif tracking-wide">Europcar</h3>
+                                <p class="text-[10px] uppercase tracking-widest font-bold opacity-80 leading-tight">Rent a Car Oficial</p>
+                                <h3 class="text-xl font-bold font-serif tracking-wide leading-tight">Europcar</h3>
                             </div>
                         </div>
-                        <span class="bg-white text-green-800 font-black px-3 py-1.5 rounded-xl text-sm shadow-md">443 €</span>
+                        <div class="flex items-center gap-2 ml-auto">
+                            <span class="bg-white text-green-800 font-black px-3 py-1.5 rounded-xl text-sm shadow-md">443 €</span>
+                        </div>
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
                         <p class="text-slate-800 font-bold text-lg mb-2">Peugeot e-2008 (o similar)</p>
@@ -226,15 +229,28 @@
                             </div>
                         </div>
 
-                        <!-- ALINEACIÓN BOTTOM FORZADA -->
-                        <div class="mt-auto space-y-2">
-                            <a href="https://www.europcar.es/es-es/reservation/extras?pickupLocation=AMST02&dropoffLocation=AMST02&pickupYear=2026&pickupMonth=09&pickupDay=06&dropoffYear=2026&dropoffMonth=09&dropoffDay=12&pickupHour=13&pickupMinute=15&dropoffHour=04&dropoffMinute=45&driverAge=26&countryOfResidence=ES&vehicleType=CR&sort=price&packageCode=PREMIUM&offerId=RWBHV1lgQU1TVDAyYEFNU1QwMmAyMDI2LTA5LTA2VDEzOjE1YDIwMjYtMDktMTJUMDQ6NDVgQ0NBRWBFU2BudWxsYGRmOWZlZGM5ODI2YWJjMmE4OTM3NjBjMTcyZGNhOTRlOGI3M2NkMTVhNGE4ZDA0NTlkMDZjYTIxNzk5M2MyMTJlNzFiZWNhMDM5NjM5ZDU5YmMwMDFlZjJkYzZjNjQ0ZDIxZjY0OWU4YjkwYjZiOTcxMDllM2I3ZjRlOGIzY2EzOTQ1MDA5OTA0Y2ZiMzU4ODk3ZWNmNmIwNmEzMGQ1Nzk4NTRkOGZlNWQyYzFlNDYwYWFiZWE1ZDM3ZjA4YWNkNGM2MmYwZmEyYWVkY2IyY2ZjYzlhNDQ0MzgxYjg2OTI4YDI2YE1BREM3NWBgYA%3D%3D" target="_blank" class="block w-full text-center bg-green-700 hover:bg-green-800 text-white font-semibold py-3 rounded-xl transition-colors shadow-md">Reservar en Europcar</a>
+                        <div class="mt-auto space-y-2 pt-2">
+                            <a href="https://www.europcar.es" target="_blank" class="block w-full text-center bg-green-700 hover:bg-green-800 text-white font-semibold py-3 rounded-xl transition-colors shadow-md">Reservar en Europcar</a>
                             <p class="text-xs text-center text-emerald-600 font-bold flex items-center justify-center gap-1">✔️ Cancelación gratuita</p>
                         </div>
                     </div>
                 </div>
-        </section>
+            </div>
 
+            <!-- Parking SVQ -->
+            <div class="mt-6 bg-white border-2 border-slate-200 p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center justify-between gap-6 hover:border-blue-300 transition-colors group">
+                <div class="flex items-center gap-5">
+                    <div class="w-16 h-16 bg-slate-100 rounded-2xl flex items-center justify-center text-3xl shadow-inner border border-slate-200 shrink-0 group-hover:scale-110 transition-transform">🅿️</div>
+                    <div>
+                        <h3 class="font-bold text-slate-800 text-lg font-serif">Parking Larga Estancia (SVQ)</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">Dejar el coche a salvo en el aeropuerto de Sevilla los 7 días. El oficial P2 o servicios VIP como <em>Guerrero</em> o <em>McParking</em> (te lo recogen en la puerta) rondan los 45-60€ si se reservan con tiempo.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-800 text-white font-black px-6 py-3 rounded-xl text-xl shadow-md whitespace-nowrap">
+                    ~ 55 €
+                </div>
+            </div>
+        </section>
         <section>
             <div class="flex items-center gap-4 mb-6 border-b-2 border-slate-300 pb-4">
                 <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm text-2xl border border-slate-200 floating-emoji">🗺️</div>
@@ -660,10 +676,11 @@
                 <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center shadow-sm text-2xl border border-emerald-200 floating-emoji">✅</div>
                 <div>
                     <h2 class="text-3xl font-bold text-slate-800">9. Checklist Definitivo (Interactivo)</h2>
-                    <p class="text-slate-500 text-sm mt-1 font-medium">Marcad cada casilla al meterlo en la maleta. ¡Prohibido dejarse el cargador!</p>
+                    <p class="text-slate-500 text-sm mt-1 font-medium">Marcad cada casilla al meterlo en la maleta. Exactamente 18 misiones de equipaje.</p>
                 </div>
             </div>
 
+            <!-- Grid perfecto de 18 casillas para alinear columnas -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
@@ -675,59 +692,70 @@
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🔌 Adaptador USB Coche</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🎧 Auriculares <span class="text-xs font-normal block text-slate-500">Para vuelo y música.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🎧 Auriculares</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🪪 DNI en vigor <span class="text-xs font-normal block text-slate-500">Revisad caducidad.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🪪 DNI en vigor</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🏥 TSE + Tarjetas AXA <span class="text-xs font-normal block text-slate-500">Escudo médico.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🏥 TSE + Tarjetas AXA</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🚗 Carnet Conducir <span class="text-xs font-normal block text-slate-500">Coche de alquiler.</span></span>
+                </label>
+                <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-amber-400 hover:bg-amber-50/30 transition-all group">
+                    <input type="checkbox" class="peer w-6 h-6 accent-amber-500 rounded-md cursor-pointer shrink-0">
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">💳 Tarjeta CRÉDITO <span class="text-xs font-normal block text-amber-600">Física papá (Fianza).</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🚗 Carnet de Conducir</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">💳 Tarjetas DÉBITO <span class="text-xs font-normal block text-red-500">Cero crédito súper.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">💳 Tarjetas DÉBITO <span class="text-xs font-normal block text-red-500">Prohibido solo Crédito.</span></span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🎫 Reservas papel <span class="text-xs font-normal block text-slate-500">Por si falla el móvil.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🎫 Reservas impresas</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">💄 Neceser Cuidado <span class="text-xs font-normal block text-slate-500">Cremas, maquillaje, etc.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🧥 Chubasqueros finos</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🧦 Ropa Int. y Pijamas <span class="text-xs font-normal block text-slate-500">Mínimo 7 mudas.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">👟 Calzado CÓMODO</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">👕 Ropa (3 Capas) <span class="text-xs font-normal block text-slate-500">Corta + Sudadera.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🩹 Botiquín Express</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">👖 Pantalones <span class="text-xs font-normal block text-slate-500">Vaqueros o cómodos.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🛍️ 2 Bolsas de tela</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🧥 Cortavientos fino <span class="text-xs font-normal block text-slate-500">Cero paraguas allí.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🪙 Monedas sueltas <span class="text-xs font-normal block text-slate-500">Para baños.</span></span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">👟 Calzado Extra <span class="text-xs font-normal block text-slate-500">Puestos + 1 repuesto.</span></span>
                 </label>
                 <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
                     <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
-                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">😎 Gafas de Sol</span>
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🩹 Botiquín Express <span class="text-xs font-normal block text-slate-500">Ibuprofeno/Tiritas.</span></span>
+                </label>
+                <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
+                    <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🛍️ 2 Bolsas de tela <span class="text-xs font-normal block text-slate-500">Compras del súper.</span></span>
+                </label>
+                <label class="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/30 transition-all group">
+                    <input type="checkbox" class="peer w-6 h-6 accent-emerald-500 rounded-md cursor-pointer shrink-0">
+                    <span class="peer-checked:line-through peer-checked:text-slate-400 text-slate-700 font-bold text-sm transition-all duration-300">🪙 Monedas sueltas <span class="text-xs font-normal block text-slate-500">Tornos de los baños.</span></span>
                 </label>
             </div>
         </section>
-
         <!-- SECCIÓN 10: MASTERCLASS Y SOUVENIRS -->
         <section class="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-xl border border-slate-200">
             <div class="flex items-center gap-4 mb-8 border-b-2 border-indigo-100 pb-4">
@@ -983,27 +1011,28 @@
                     <p class="text-blue-200 leading-relaxed text-sm md:text-base font-medium">Elegimos vuelos en Transavia, el SUV de Europcar, Efteling y el confort de la cabaña <strong>Huisje Roger</strong> en Airbnb.</p>
                     
                     <ul class="space-y-4 mt-8 text-blue-100 text-sm bg-slate-900/50 p-6 rounded-2xl border border-slate-700 shadow-inner">
-                        <li class="flex justify-between items-center border-b border-slate-700/50 pb-3"><span>Vuelos (4) + Maleta + Coche:</span> <span class="font-mono text-lg font-bold">1.233 €</span></li>
+                        <li class="flex justify-between items-center border-b border-slate-700/50 pb-3"><span>Vuelos (4) + Maleta + Coche + Parking SVQ:</span> <span class="font-mono text-lg font-bold">1.352 €</span></li>
                         <li class="flex justify-between items-center border-b border-slate-700/50 pb-3"><span>Casa Huisje Roger (6 noches):</span> <span class="font-mono text-lg font-bold">738 €</span></li>
                         <li class="flex justify-between items-center border-b border-slate-700/50 pb-3 text-blue-300 font-bold"><span>Seguro Viaje Generali (Airbnb):</span> <span class="font-mono text-lg">17 €</span></li>
                         <li class="flex justify-between items-center border-b border-slate-700/50 pb-3 text-orange-300 font-bold"><span>Entradas Efteling (4 pax):</span> <span class="font-mono text-lg">192 €</span></li>
                         <li class="flex justify-between items-center pt-3 text-emerald-400 font-bold text-xl bg-emerald-500/10 p-3 rounded-xl border border-emerald-500/20">
                             <span>Fondo Disponible <span class="text-xs font-normal text-emerald-500/80 block mt-1">(Hasta límite de 2.600€)</span></span> 
-                            <span class="font-mono text-2xl">420 €</span>
+                            <span class="font-mono text-2xl">301 €</span>
                         </li>
                     </ul>
                 </div>
                 <div class="w-full md:w-1/3 bg-white/95 backdrop-blur text-slate-900 p-8 rounded-3xl text-center shadow-[0_0_50px_rgba(249,115,22,0.15)] transform md:scale-105 border border-white">
                     <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Coste Base del Viaje</p>
-                    <p class="text-5xl md:text-6xl font-black text-blue-900 mb-4 font-serif">2.180 <span class="text-3xl text-blue-700">€</span></p>
+                    <p class="text-5xl md:text-6xl font-black text-blue-900 mb-4 font-serif">2.299 <span class="text-3xl text-blue-700">€</span></p>
                     <div class="bg-orange-50 border border-orange-100 py-3 px-5 rounded-2xl">
-                        <p class="text-sm font-bold text-orange-800">Aprox. 545 € / persona</p>
+                        <p class="text-sm font-bold text-orange-800">Aprox. 575 € / persona</p>
                         <p class="text-xs text-orange-600 mt-1">Todo incluido menos dietas</p>
                     </div>
                 </div>
             </div>
             <div class="absolute -bottom-20 -right-20 text-blue-500/10 text-[350px] pointer-events-none transform -rotate-12 select-none">🌷</div>
         </section>
+        
         <!-- BOTÓN DE APROBACIÓN INTERACTIVO -->
         <div class="flex flex-col items-center justify-center mt-16 mb-8 relative z-20">
             <button id="btn-aprobar" onclick="aprobarProyecto()" class="group relative px-10 py-5 bg-gradient-to-r from-orange-500 to-red-500 text-white font-black text-xl md:text-2xl rounded-full shadow-[0_10px_40px_rgba(249,115,22,0.4)] hover:shadow-[0_15px_50px_rgba(249,115,22,0.6)] transform hover:-translate-y-2 transition-all duration-300 border-4 border-white overflow-hidden">
